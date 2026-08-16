@@ -1,1 +1,181 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynith Manufacturing Industrial Co., Ltd. | Tissue Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">
+        <div class="brand-mark">D</div>
+        <div>
+          <strong>DYNITH</strong>
+          <span>MANUFACTURING INDUSTRIAL</span>
+        </div>
+      </a>
+      <button class="menu-btn" id="menuBtn">☰</button>
+      <nav id="mainNav">
+        <a href="#home" data-km="ទំព័រដើម" data-en="Home">ទំព័រដើម</a>
+        <a href="#about" data-km="អំពីយើង" data-en="About Us">អំពីយើង</a>
+        <a href="#products" data-km="ផលិតផល" data-en="Products">ផលិតផល</a>
+        <a href="#brands" data-km="ម៉ាកផលិតផល" data-en="Brands">ម៉ាកផលិតផល</a>
+        <a href="#contact" data-km="ទំនាក់ទំនង" data-en="Contact Us">ទំនាក់ទំនង</a>
+      </nav>
+      <button class="lang-btn" id="langBtn">EN</button>
+    </div>
+  </header>
 
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">SUPER SOFT • PREMIUM QUALITY</p>
+          <h1>ក្រដាសជូតមាត់ <span>ទន់ ស្អាត និងមានគុណភាព</span></h1>
+          <p class="lead">ផលិតផលក្រដាសជូតមាត់សម្រាប់គ្រួសារ សណ្ឋាគារ ភោជនីយដ្ឋាន និងអាជីវកម្ម។ ផ្តោតលើភាពទន់ ស្រូបបានល្អ និងសុវត្ថិភាពសម្រាប់ការប្រើប្រាស់ប្រចាំថ្ងៃ។</p>
+          <div class="hero-actions">
+            <a href="#products" class="btn primary">មើលផលិតផល</a>
+            <a href="#contact" class="btn outline">ទាក់ទងយើង</a>
+          </div>
+          <div class="quality">
+            <div><b>100%</b><small>Top Virgin Pulp</small></div>
+            <div><b>GMP</b><small>Quality Production</small></div>
+            <div><b>Export</b><small>Premium Standard</small></div>
+          </div>
+        </div>
+        <div class="hero-product">
+          <div class="floating-badge">COLLEN®<small>Premium Quality</small></div>
+          <div class="tissue-display">
+            <div class="pack pack-blue"><b>Collen</b><span>Super Soft</span></div>
+            <div class="pack pack-pink"><b>Collen</b><span>Premium</span></div>
+            <div class="roll"><div></div></div>
+            <div class="roll small"><div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-title">
+          <p>ABOUT DYNITH</p>
+          <h2>គុណភាពដែលអ្នកអាចទុកចិត្តបាន</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="icon">✦</div>
+            <h3>ទន់ និងស្រួលប្រើ</h3>
+            <p>រចនាឡើងដើម្បីផ្តល់អារម្មណ៍ទន់ និងផាសុកភាពសម្រាប់ការប្រើប្រាស់ប្រចាំថ្ងៃ។</p>
+          </div>
+          <div class="about-card">
+            <div class="icon">◉</div>
+            <h3>ស្រូបបានល្អ</h3>
+            <p>ស្រទាប់ក្រដាសមានសមត្ថភាពស្រូបសំណើមបានល្អ និងមានភាពរឹងមាំសមស្រប។</p>
+          </div>
+          <div class="about-card">
+            <div class="icon">✓</div>
+            <h3>គុណភាពសម្រាប់ទីផ្សារ</h3>
+            <p>មានជម្រើសសម្រាប់ទីផ្សារទូទៅ ទីផ្សារស្តង់ដារ និងផលិតផល Premium/Export។</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="section products-section">
+      <div class="container">
+        <div class="section-title">
+          <p>OUR PRODUCTS</p>
+          <h2>ផលិតផលក្រដាសជូតមាត់</h2>
+        </div>
+        <div class="filters">
+          <button class="filter active" data-filter="all">ទាំងអស់</button>
+          <button class="filter" data-filter="facial">Facial Tissue</button>
+          <button class="filter" data-filter="roll">Toilet Roll</button>
+          <button class="filter" data-filter="box">Box Tissue</button>
+        </div>
+        <div class="product-grid" id="productGrid">
+          <article class="product-card" data-category="facial">
+            <div class="product-art blue"><span>COLLEN</span><small>SUPER SOFT</small></div>
+            <div class="product-info"><h3>Collen Super Soft</h3><p>Facial Tissue • 2 Ply</p><strong>Premium</strong></div>
+          </article>
+          <article class="product-card" data-category="facial">
+            <div class="product-art pink"><span>COLLEN</span><small>PREMIUM QUALITY</small></div>
+            <div class="product-info"><h3>Collen Premium</h3><p>Facial Tissue • Soft & Absorbent</p><strong>Premium</strong></div>
+          </article>
+          <article class="product-card" data-category="box">
+            <div class="product-art white"><span>ROUMDOUL</span><small>STANDARD TISSUE</small></div>
+            <div class="product-info"><h3>Roumdoul</h3><p>Box Tissue • Standard Brand</p><strong>Standard</strong></div>
+          </article>
+          <article class="product-card" data-category="box">
+            <div class="product-art green"><span>SAMANG</span><small>ECONOMIC</small></div>
+            <div class="product-info"><h3>Samang</h3><p>Box Tissue • Economic Brand</p><strong>Economic</strong></div>
+          </article>
+          <article class="product-card" data-category="roll">
+            <div class="product-art roll-art"><div class="big-roll"></div><span>COLLEN</span></div>
+            <div class="product-info"><h3>Collen Toilet Roll</h3><p>Toilet Tissue • Soft & Strong</p><strong>Premium</strong></div>
+          </article>
+          <article class="product-card" data-category="roll">
+            <div class="product-art roll-art pink-bg"><div class="big-roll"></div><span>COLLEN</span></div>
+            <div class="product-info"><h3>Collen Household Roll</h3><p>Household Tissue • Multi-use</p><strong>Premium</strong></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="brands" class="section brands-section">
+      <div class="container">
+        <div class="section-title">
+          <p>REGISTERED BRANDS</p>
+          <h2>ម៉ាកផលិតផលរបស់យើង</h2>
+        </div>
+        <div class="brand-grid">
+          <div class="brand-card coll"><div class="brand-logo">Collen<sup>®</sup></div><p>Premium brand of tissue products for export and premium distribution channels.</p></div>
+          <div class="brand-card rom"><div class="brand-logo">រំដួល <span>roumdoul</span></div><p>Standard tissue brand designed for high-standard distribution channels.</p></div>
+          <div class="brand-card sam"><div class="brand-logo">SAMANG</div><p>Economic tissue brand for general distribution and everyday use.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner">
+        <div><p>SUPER SOFT • EXTRA GENTLE • ABSORBENT</p><h2>ជ្រើសរើសគុណភាពពី DYNITH</h2></div>
+        <a class="btn light" href="#contact">ស្នើសុំព័ត៌មាន</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div>
+          <div class="section-title left"><p>CONTACT US</p><h2>ទាក់ទងមកកាន់យើង</h2></div>
+          <p>ផលិតដោយ <b class="green-text">DYNITH MANUFACTURING INDUSTRIAL CO., LTD.</b></p>
+          <p>Lot No. 3, Plov Lum, Phum Rongchak, Sangkat Phnom Penh Thmey, Khan Sen Sok, Phnom Penh, Kingdom of Cambodia</p>
+          <div class="contact-list">
+            <div><b>Phone</b><span>+855 88 933 88 99 / +855 98 933 899</span></div>
+            <div><b>Email</b><span>info@dynithmf.com</span></div>
+            <div><b>Website</b><span>www.dynithmf.com</span></div>
+          </div>
+        </div>
+        <form id="contactForm" class="contact-form">
+          <h3>ផ្ញើសារមកកាន់យើង</h3>
+          <input required type="text" placeholder="ឈ្មោះរបស់អ្នក">
+          <input required type="email" placeholder="អ៊ីមែល">
+          <input type="text" placeholder="ប្រធានបទ">
+          <textarea required rows="5" placeholder="សាររបស់អ្នក"></textarea>
+          <button class="btn primary" type="submit">ផ្ញើសារ</button>
+          <p id="formMsg"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2026 DYNITH Manufacturing Industrial Co., Ltd.</span>
+      <span>Collen® • Roumdoul • Samang</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
